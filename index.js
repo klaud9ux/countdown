@@ -57,7 +57,6 @@ window.addEventListener('load', () => {
 
 window.addEventListener('resize' , init)
 window.addEventListener('click', () => {
-  createRing()
   const texts = document.querySelectorAll('span')
   const countDownOption = {
     opacity: 1,
